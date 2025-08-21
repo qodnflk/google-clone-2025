@@ -25,12 +25,12 @@
             color: gray;
         }
 
-        .left-nav {
+        .left-nav ul{
             margin-left: 15px;
             display: flex;
             list-style: none;
         }
-        .right-nav {
+        .right-nav ul{
             padding-right: 10px;
             display: flex;
             list-style: none;
@@ -50,15 +50,20 @@
         <div class="header-container">
             <!-- 왼쪽 네비 -->
             <nav class="left-nav">
-                <li><a href="#">Google 정보</a></li>
-                <li><a href="#">스토어</a></li>
+                <ul>
+                    <li><a href="#">Google 정보</a></li>
+                    <li><a href="#">스토어</a></li>
+                </ul>
+                
             </nav>
             <!-- 오른쪽 네비 -->
             <nav class="right-nav">
+                <ul>
                     <li><a href="#">Gmail</a></li>
                     <li><a href="#">이미지</a></li>
                     <li><a href="#">실험실</a></li>
-                    <li><a href="#">메뉴</a></li>
+                    <li><a href="#">메뉴</a></li>    
+                </ul>
             </nav>
         </div>
     </header>
